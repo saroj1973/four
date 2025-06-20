@@ -1,11 +1,10 @@
 pipeline{
     agent any
+    environment{
+        NETLIFY_SITE_ID = 'ba14be02-f96c-4f47-bfce-b61f835cc08f'
+        NETLIFY_AUTH = credentials('netlify-token')
+    }
     stages{
-            environment{
-            NETLIFY_SITE_ID = 'ba14be02-f96c-4f47-bfce-b61f835cc08f'
-            NETLIFY_AUTH = credentials('netlify-token')
-        }
-
         stage('build'){
             agent{
                 docker{
