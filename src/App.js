@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-     <center></> <h1>Hello from Saroj Shakya</></center>
+     <center> <h1>Hello from Saroj Shakya </center> 
 
       learn react
     </div>
