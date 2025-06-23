@@ -8,12 +8,14 @@ pipeline{
             }
         }
         stage('build'){
+            sh '''
             ls - la
             npm --version
             node --version
             npm ci
             npm run build
             ls - la
+            '''
         }
     }
 }
