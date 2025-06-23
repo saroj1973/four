@@ -19,5 +19,15 @@ pipeline{
                 '''
             }
         }
+        stage('testing'){
+            agent{
+                image 'node:18-alpine'
+                reuseNode true
+            }
+            steps{
+                test -f build/index.html
+                npm test
+            }
+        }
     }
 }
