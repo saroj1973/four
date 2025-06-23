@@ -1,6 +1,6 @@
 function App() {
   return (
-    <body bgcolor = "orange"> 
+    <body bgcolor = "purple"> 
     <div className="App">
      <center> <h1>testing testing triggers saroj Shakya</h1> </center> 
     </div>
