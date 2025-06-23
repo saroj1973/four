@@ -46,7 +46,7 @@ pipeline{
             }
             steps{
                 sh '''
-                npm install netlify_cli@20.1.1
+                npm install netlify-cli@20.1.1
                 node_modules/.bin/netlify --version
                 echo ".... printind status of netlify"
                 node_modules/.bin/netlify status
