@@ -1,8 +1,10 @@
 function App() {
   return (
-    <div style="background-color: #f1f1f1;" className="App">
+    <body bgcolor = "red">
+    <div className="App">
      <center> <h1> TESTING MCSIT SITE </h1> </center> 
     </div>
+    </body>
   );
 }
 export default App;
