@@ -1,8 +1,8 @@
 function App() {
   return (
-    <body bgcolor = "green"> 
+    <body bgcolor = "blue"> 
     <div className="App">
-     <center> <h1> NCIT WEB HOSTING </h1> </center> 
+     <center> <h1> hook used for 2 mins </h1> </center> 
      
     </div>
   </body>
