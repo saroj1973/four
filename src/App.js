@@ -1,8 +1,8 @@
 function App() {
   return (
-    <body bgcolor = "PURPLE"> 
+    <body bgcolor = "RED"> 
     <div className="App">
-     <center> <h1> This site is for testing purose for MCSIT class!!!! </h1> </center> 
+     <center> <h1> This site is for testing purpose for MCSIT class!!!! </h1> </center> 
      
     </div>
   </body>
