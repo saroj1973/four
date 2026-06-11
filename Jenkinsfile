@@ -20,7 +20,7 @@ pipeline{
                 npm ci
                 npm run build
                 ls -la
-                echo 'saroj'
+                echo 'saroj shakya is testing the product'
                 '''
             }   
         }

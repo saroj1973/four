@@ -2,7 +2,7 @@ function App() {
   return (
     <body bgcolor = "PURPLE"> 
     <div className="App">
-     <center> <h1> hook used for 2 mins </h1> </center> 
+     <center> <h1> This site is for testing purose for MCSIT class!!!! </h1> </center> 
      
     </div>
   </body>
