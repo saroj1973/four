@@ -21,7 +21,23 @@ pipeline{
                 npm run build
                 ls -la
                 echo 'saroj shakya is testing the product'
+                '''        stage('Test') {
+            agent {
+                docker {
+                    image 'node:18-alpine'
+                    reuseNode true
+                }
+            }
+            steps {
+                sh '''
+                    test -f build/index.html
+                    npm test
                 '''
+            }
+        }
+    }
+}
+
             }   
         }
         
