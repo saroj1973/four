@@ -1,10 +1,11 @@
 function App() {
   return (
-    <body bgcolor = "Orange"> 
-    <div className="App">
-     
+    <div style={{ backgroundColor: 'orange', minHeight: '100vh' }}>
+      <div className="App">
+        {/* Your content goes here */}
+      </div>
     </div>
-  </body>
   );
 }
+
 export default App;
