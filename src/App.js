@@ -1,8 +1,7 @@
 function App() {
   return (
-    <div className="App" BGCOLOR ="red">
-     MCIS CHANGING CONTENTS LIVE 
-     </div>
+    <div className="App">
+         </div>
   );
 }
 export default App;
