@@ -20,7 +20,7 @@ pipeline{
                 npm ci
                 npm run build
                 ls -la
-                echo 'MCSIT CLASS is testing the product'
+                echo 'MCSIT CLASS is building the product'
                 echo '....CHANGING CONTENTS OF LIVE WEBSITE'
                 '''
             }   
