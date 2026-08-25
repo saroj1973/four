@@ -1,6 +1,7 @@
 function App() {
   return (
-    <div className="App">
+    <div className="App" BGCOLOR ="red">
+     MCIS CHANGING CONTENTS LIVE 
      </div>
   );
 }
