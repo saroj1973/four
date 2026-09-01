@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          testing testing testing
-          Nepal College of Information Technology
+        learn react        
         </a>
       </header>
       
